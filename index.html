@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-3</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        id="jalogo"
+        src="https://www.jedacademy.az/front/img/jedlogo.png"
+        alt="jalogo"
+      />
+      <div>
+        <a id="headlink" href="index.html">Qeydiyyatdan keç →</a>
+      </div>
+    </header>
+    <div id="container1">
+      <div id="blocks">
+        <div id="block1">
+          <h2>Qeydiyyatdan keçin</h2>
+          <p>
+            İstədiyiniz kursu seçin və şəxsi məlumatlarınızı daxil edin. Ən qısa
+            zamanda sizinlə əlaqə saxlayacağıq.
+          </p>
+          <img
+            src="https://www.jedacademy.az/front/img/register-img.png"
+            alt="reglogo"
+          />
+        </div>
+        <div id="block2">
+          <form>
+            <label for="select">Kurs seçin</label>
+            <select id="select">
+              <option id="optmain" value="0">Kursu seçin</option>
+              <option value="1">Front-End proqramlaşdırma kursu</option>
+              <option value="2">
+                Python Django ilə Back-End proqramlaşdırma kursu
+              </option>
+              <option value="3">Full-Stack MERN proqramlaşdırma kursu</option>
+              <option value="4">IT Help Desk kursu</option>
+              <option value="5">Computer Engineering</option>
+              <option value="6">Süni İntellekt - AI Engineering</option>
+              <option value="7">Kibertəhlükəsizlik - Ethical Hacking</option>
+              <option value="8">IT Texniki Mütəxəssis</option>
+              <option value="9">Flutter ilə Mobil Proqramlaşdırma Kursu</option>
+              <option value="10">
+                Java ilə Back-End Proqramlaşdırma Kursu
+              </option>
+              <option value="11">
+                Microsoft Office Proqramları Kursu
+              </option></select
+            ><br />
+            <label for="name"
+              >Adınız və Soyadınız
+              <input
+                required
+                name="Ad"
+                type="text"
+                id="name"
+                placeholder="Ad Soyad"
+                minlength="5"
+                maxlength="25"
+              /> </label
+            ><br />
+            <label for="email"
+              >Emailiniz
+              <input
+                required
+                name="Email"
+                id="email"
+                type="email"
+                placeholder="example@gmail.com"
+                minlength="15"
+                maxlength="30" /></label
+            ><br />
+            <label for="number"
+              >Əlaqə nömrəniz
+              <input
+                name="Əlaqə nömrəsi"
+                required
+                minlength="10"
+                maxlength="13"
+                type="tel"
+                id="number"
+                placeholder="055 555 55 55" /></label
+            ><br />
+            <label for="time"
+              >Sizə uyğun olan vaxtı seçin
+              <input required name="vaxt" id="time" type="time" value="11:00" />
+            </label>
+            <button id="submitbutton" type="submit">Qeydiyyat →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+@font-face {
+    font-family:poppinsregular;
+    src:url(../fonts/Poppins-Regular.ttf);
+}
+body{
+    background-image: url(https://www.jedacademy.az/front/img/bg-img-2.png);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    height: 100px;
+}
+#headlink{
+    font-family: poppinsregular;
+    background-color:rgb(224, 173, 33);
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: white;
+    margin-right: 10px;
+}
+#jalogo{
+    width: 250px;
+    margin: 10px 30px;
+}
+#blocks{
+    display: flex;
+}
+#block1{
+    background-color: white;
+    margin: 100px 30px;
+    font-family: poppinsregular;
+    width: 660px;
+    text-align: center;
+}
+h2{
+    color: blue;
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    color: blue;
+    margin-top: 10px;
+}
+img{
+    margin-top: 30px;
+}
+#block2{
+    margin-top: 100px;
+    height: 500px;
+    margin-left: 30px;
+}
+input,button,select{
+    padding: 10px;
+    font-family: poppinsregular;
+    display: block;
+    width: 500px;
+}
+#submitbutton{
+    background-color:rgb(224, 173, 33);
+    font-family: poppinsregular;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+}
+form{
+    padding:10px 20px;
+}
+label{
+    color: gray;
+    font-family: poppinsregular;
+}
+#optmain{
+    color: gray;
+}
+#kursp{
+    color: gray;
+}
